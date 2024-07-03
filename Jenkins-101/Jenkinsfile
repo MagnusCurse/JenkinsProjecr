@@ -4,7 +4,6 @@ pipeline {
             label 'DockerAgentPython'
             }
       }
-    // I think that is fun
     triggers {
         pollSCM '* * * * * *'
     }
